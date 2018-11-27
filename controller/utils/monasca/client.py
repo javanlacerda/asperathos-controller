@@ -14,6 +14,7 @@
 # limitations under the License.
 
 from monascaclient import exc
+
 import ConfigParser
 import os
 import sys
@@ -21,7 +22,9 @@ import requests
 import json
 
 from monascaclient import client as monclient, ksclient
+
 from controller.service import api
+
 from controller.exceptions.monasca import MetricNotFoundException
 
 

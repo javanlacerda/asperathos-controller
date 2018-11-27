@@ -91,7 +91,6 @@ class KubeJobs:
             the progress_error. If it is, calculates the new CPU cap
             value and tries to modify the cap of the vms.
         """
-
         # If the error is positive and its absolute value is too high, scale down
         if progress_error > 0 and progress_error >= self.trigger_down:
             self.logger.log("Scaling down")

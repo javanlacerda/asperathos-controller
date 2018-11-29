@@ -21,7 +21,7 @@ from controller.test.unit.mocks.actuator_mock import ActuatorMock
 from controller.test.unit.mocks.metric_source_mock import MetricSourceMock
 
 """
-Class that tests the KubeJobsAlarm components.
+Class that tests the KubeJobs Alarm components.
 """
 class TestKubeJobs(unittest.TestCase):
 
